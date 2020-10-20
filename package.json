@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",
-    "eslint": "node node_modules/eslint/bin/eslint *.js"
+    "start": "node index.js",
+    "eslint": "node node_modules/eslint/bin/eslint *.js",
+    "fix": "node node_modules/eslint/bin/eslint *.js --fix"
   },
   "author": "",
   "license": "ISC",
